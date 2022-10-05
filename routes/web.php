@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Livewire\Client\IndexClient;
+use App\Http\Livewire\Product\IndexProduct;
+use App\Http\Livewire\Sale\IndexSale;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +29,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+Route::get('/clients', IndexClient::class)->name('client');
+
