@@ -34,9 +34,9 @@ $style_text_p = "margin-top: 30px; font-family: 'Open Sans', sans-serif; font-st
                 </p>
 
                 <div style="text-align: center; {{ $style_text_p }}">
-                    <a href="{{ $ruta }}" rel="noopener"
+                    <a href="#" rel="noopener"
                         style="  border-radius:4px; color:#fff;display:inline-block;overflow:hidden;text-decoration:none;background-color:#2d3748;border-bottom:8px solid #2d3748;border-left:18px solid #2d3748;border-right:18px solid #2d3748;border-top:8px solid #2d3748;"
-                        target="_blank">Restablecer token de autenticacion google</a>
+                        target="_blank">Boton </a>
                 </div>
             </div>
         </td>
